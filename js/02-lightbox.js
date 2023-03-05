@@ -33,5 +33,10 @@ function createDivEl(items){
     }
   
     
+const lightbox = new SimpleLightbox('.gallery a', {
+    caption: true,
+    captionsData: 'alt',
+    captionDelay: 250,
+  });
   }
   
